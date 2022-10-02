@@ -167,7 +167,6 @@ var hora = 24;
 while (hora > 0){
     console.log(hora);
     hora--;
-   
 }
 ```
 
@@ -241,19 +240,3 @@ console.log( aprovacao([8, 8, 7]) );
 console.log( aprovacao([8, 8, 10, 6]) );
 //console.log( "Média: " + calcularMedia([9, 6]))
 console.log( aprovacao([9, 6]) );
-```
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-curso-frontend/javascript-2.md at javascript-2 · cavalcantemmarcelo/curso-frontend
