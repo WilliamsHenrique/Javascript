@@ -30,7 +30,7 @@ true + true = 2 / Boolean / Boolean
 10 + 10 * 2 = 30 / Number / Number
 */
 
-//      2. Responda as perguntas de acordo com as variáveis.
+/*      2. Responda as perguntas de acordo com as variáveis.
 
  var branco = "preto";
  var preto = "cinza";
@@ -40,20 +40,27 @@ true + true = 2 / Boolean / Boolean
  var prestacao = 750;
  var cavalo = carro == "preto" ? "cinza" :"marron"
 
+ var cor = branco + preto + cinza + carro;
 
-//  a ) branco == "branco" / false /
-//  b ) branco == cinza / false /
-//  c ) carro === branco / true /
-//  d ) var cavalo = carro == "preto" ? "cinza" : "marron"; / true / false / false
-//  e ) Quantas prestações são necessárias para pagar o valor do carro com entrada de 3.000? Demonstre a operação.  
-  var valor = 30000;
-  var prestacao = 750;
-  console.log((valor - 3000) / prestacao);
-  36 prestações
-//  f ) Somando as variáveis de cores é formada uma string de quantos caracteres?
-  var cor = branco + preto + cinza + carro;
-  console.log(cor);
-  console.log(cor.length);
-  pretocinzabrancopreto
-  21 
- 
+ console.log(cor);
+ console.log(cor.length);
+ pretocinzabrancopreto
+ 21
+
+
+ a ) branco == "branco" / false /
+ b ) branco == cinza / false /
+ c ) carro === branco / true /
+ d ) var cavalo = carro == "preto" ? "cinza" : "marron"; / true / false / false
+ e ) Quantas prestações são necessárias para pagar o valor do carro com entrada de 3.000? Demonstre a operação.  
+ var valor = 30000;
+ var prestacao = 750;
+ console.log((valor - 3000) / prestacao);
+ 36 prestações
+ f ) Somando as variáveis de cores é formada uma string de quantos caracteres?
+ var cor = branco + preto + cinza + carro;
+ console.log(cor);
+ console.log(cor.length);
+ pretocinzabrancopreto
+ 21 
+ */
