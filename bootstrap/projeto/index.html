@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Bootstramp I</title>
+</head>
+<body>
+ 
+    <header>
+        <div class="container">
+           <div class="row">
+            <div class="col">
+
+                <h1>Gatos</h1>
+
+
+
+            </div>
+            <div class="col">               
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a class="nav-link active btn btn-lg btn-success" href=""><strong>Home</strong></a></li>
+                    <li class="nav-item"><a class="nav-link active btn btn-lg btn-success" href="#Sobre"><strong>Sobre</strong></a></li>
+                    <li class="nav-item"><a class="nav-link active btn btn-lg btn-success" href="#Produtos"><strong>Produto</strong></a></li>
+                    <li class="nav-item"><a class="nav-link active btn btn-lg btn-success" href="#Contato"><strong>Contato</strong></a></li>
+                </ul>
+            </div>
+           </div>
+        </div>
+    
+    </header>
+
+    <section id="Sobre">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Felinos</h2>
+                    <p>Felídeos são uma família de animais mamíferos digitígrados, da ordem dos carnívoros. Existem muitas espécies selvagens, como os grandes felinos. Existem duas subfamílias de felídeos: Pantherinae e felíneos. Os primeiros exemplares da família surgiram durante o Oligoceno, há cerca de 25 milhões de anos.</p>
+                    <p>Na pré-história, também existia uma terceira subfamília denominada Machairodontinae, em que faziam parte os felídeos dentes-de-sabre como o Smilodon. Apesar das semelhanças superficiais, os também extintos Thylacosmilus e Nimravidae não estão incluídos na família dos felídeos.</p>
+                    <a class="btn btn-lg btn-success">Botão</a>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/gatinhos.jpg" alt="Imagem Canada" class="img-fluid">
+                </div>
+            
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="Produtos">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <h2>Produtos</h2>
+
+                        <div class="card">
+                            <img src="./images/perça.jpg" alt="Imagem Canada" class="img-fluid">
+                            <div class="card-bady">
+                                <h5 class="card-title">Gato Sphynx</h5>
+                                <p class="card-text">O gato da raça Sphynx são muito exóticos e parecem até “elfos” vindos de um mundo mágico. De orelhas bicudas, rosto afiando, olhos grandes e… sem pelos!</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Produto</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/guepardo.jpg" alt="Imagem Canada" class="img-fluid">
+                            <div class="card-bady">
+                                <h5 class="card-title">Filhotes de Guepardo</h5>
+                                <p class="card-text">Consegue atingir velocidades de 115 km/h, por curtos períodos de cada vez (até 500 metros de corrida), sendo o mais rápido de todos os animais terrestres.</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Produto</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/gatobranco.jpg" alt="Imagem Canada" class="img-fluid">
+                            <div class="card-bady">
+                                <h5 class="card-title">Gatinha Persa</h5>
+                                <p class="card-text">A calmaria e inteligência do gato Persa faz com que ele seja amado por tantas famílias, sem falar na gentileza e docilidade certeiros em conquistar qualquer coração por onde passa.</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Produto</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+    <section id="Contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação</p>
+                </div>
+                <div class="col">
+                    <form class="form">
+                        
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
+                        </div>
+                        
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="Digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="" id="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                            
+                        </thead>
+                    
+                        <tbody>
+                            <tr>
+                                <td>Filhote</td>
+                                <td>R$ 350</td>
+                            </tr>
+                            <tr>
+                                <td>jovem</td>
+                                <td>R$ 600</td>
+                            </tr>
+                            <tr>
+                                <td>Casal</td>
+                                <td>R$ 900</td>
+                            </tr>
+                            <tr>
+                                <td>Castrado</td>
+                                <td>R$ 1.300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+
+                    <table class="table table-hover table-striped" >
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                            
+                        </thead>
+                    
+                        <tbody>
+                            <tr>
+                                <td>Filhote</td>
+                                <td>R$ 1.000</td>
+                            </tr>
+                            <tr>
+                                <td>jovem</td>
+                                <td>R$ 2.500</td>
+                            </tr>
+                            <tr>
+                                <td>Adulto</td>
+                                <td>R$ 5.000</td>
+                            </tr>
+                            <tr>
+                                <td>Casal</td>
+                                <td>R$ 8.500</td>
+                            </tr>
+                            <tr>
+                                <td>Castrado</td>
+                                <td>R$ 11.800</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                            
+                        </thead>
+                    
+                        <tbody>
+                            <tr>
+                                <td>Filhote</td>
+                                <td>R$ 250</td>
+                            </tr>
+                            <tr>
+                                <td>jovem</td>
+                                <td>R$ 550</td>
+                            </tr>
+                            <tr>
+                                <td>Adulto</td>
+                                <td>R$ 900</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- <div class="container">
+        <div class="row">
+           --  Unidade = Largura da área dividido por 12 --
+            <div class="col-5 col-sm-12">Linha 1 - Coluna 1</div>
+            <div class="col-7 col-sm-12">Linha 1 - Coluna 2</div>
+        <div class="row">
+            <div class="col">Linha 2 - Coluna 1</div>
+        </div>
+        <div class="row">
+            <div class="col">Linha 3 - Coluna 1</div>
+            <div class="col">Linha 3 - Coluna 2</div>
+            <div class="col">Linha 3 - Coluna 3</div>
+        </div>
+    </div> -->
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
