@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./libs/fontawesome/css/v5-font-face.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/custom-form.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h1>Gatos</h1>
+
+
+
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                      <li class="nav-item"><a class="nav-link active btn btn-lg btn-primary" href="./index.html"><strong>Home</strong></a></li>
+                      <li class="nav-item"><a class="nav-link active btn btn-lg btn-secondary" href="#Sobre"><strong>Sobre</strong></a></li>
+                      <li class="nav-item"><a class="nav-link active btn btn-lg btn-success" href="#Produtos"><strong>Produto</strong></a></li>
+                      <li class="nav-item"><a class="nav-link active btn btn-lg btn-info" href="#Contato"><strong>Contato</strong></a></li>
+                      <li class="nav-item"><a class="nav-link active btn btn-lg btn-danger" href="./cadastro.html"><strong>Cadastro</strong></a></li>
+                      <li class="nav-item"><a class="nav-link active btn btn-lg btn-warning" href="./componentes.html"><strong>Componentes</strong></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="#Cadastro">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h2>Cadastro</h2>
+                    <p>Faça seu cadastro e receba todas as informações para adotar um gatinho em sua casa.</p>
+                </div>
+            </div>
+
+            <form class="form">
+
+                <div class="row">
+                    <div class="col">
+                      <label for="Nome Completo">Nome Completo</label>
+                      <input type="text" name="Nome" id="Nome" class="form-control" required placeholder="Digite seu nome">
+                    </div>
+
+                <div class="col">
+                    <label for="E-mail">E-mail</label>                          
+                    <input type="text" name="email" id="e-mail" class="form-control" required placeholder="Digite seu e-mail">
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" class="form-control" required placeholder="Endereço">
+                    </div>
+                    <div class="col">
+                        <label for="Telefone">Telefone</label>
+                        <input type="text" id="Telefone" class="form-control" required placeholder="(99) 9 9999-9999">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="form-control" required placeholder="Cidade">
+                    </div>
+                    <div class="col">
+                        <label for="Bairro">Bairro</label>
+                        <input type="text" name="Bairro" id="Bairro" class="form-control" required placeholder="Bairro">
+                    </div>
+                    <div class="col">
+                        <label for="estado">Estado</label>
+                        <select name="Estado" id="Estado" class="form-control" required>
+                            <option value="">Selecione um Estado</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="al">Alagoas</option>
+                            <option value="bh">Bahia</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep" class="form-control" required placeholder="CEP">
+                    </div>
+              </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <label for="info" class="col-form-label-sm">Informações</label>
+                            <textarea class="form-control" name="informacoes" id="info" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" name="promocionais" id="promocionais">
+                            <label form="promocionais" class="col-form-label-sm">Aceito receber mensagens
+                                promocionais</label>
+                        </div>
+                    </div>
+                </div>
+
+        
+
+
+                <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+
+            </form>
+        
+            <p> <a href="#Cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber mais
+                novidades.</p>
+    </div>
+        </div> <!-- end. container-->
+    </section>
+
+
+<div class="modal fade" id="modal-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Inscrever-me na lista</h5>
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Preencha os campos para receber novidades em promoções</h6>
+
+                <form class="form-inline">
+                    <div class="row">
+                        <div class="form-group col-4">
+                             <input type="text" class="form-control form-control-sm mb-2" name="nome"
+                                    placeholder="nome" required>
+                        </div>
+                        <div class="form-group col-4">
+                            <input type="text" class="form-control form-control-sm mb-2" name="e-mail"
+                                    placeholder="e-mail" required>
+                        </div>
+                        <div class="form-group col-4">
+                            <button type="submit" class="btn btn-success">Receber novidades</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary mb2" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="./libs/fontawesome/js/all.min.js"></script>
+</body>
+
+</html>
